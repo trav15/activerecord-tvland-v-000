@@ -3,6 +3,6 @@ class AddShowAttributes < ActiveRecord::Migration[4.2]
     add_column :shows |s|
      s.string :day
      s.string :season
-   end
+    end
   end
 end
